@@ -1,0 +1,15 @@
+<section class="module grid two-up">
+  <div class="grid-inner">
+    {{#each items}}
+      <a class="card" href="{{cta_url}}">
+        <picture>
+          <source media="(max-width: 768px)" srcset="{{mobile_image}}">
+          <img src="{{desktop_image}}" alt="{{alt_text}}">
+        </picture>
+        {{#if headline}}<h3>{{headline}}</h3>{{/if}}
+        {{#if subhead}}<p class="sub">{{subhead}}</p>{{/if}}
+        <span class="btn">{{cta_text}}</span>
+      </a>
+    {{/each}}
+  </div>
+</section>
