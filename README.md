@@ -40,8 +40,7 @@ SCSS/CSS - simple responsive styling
 - A Service Account with access to your Sheet
 
 
-The Service Account’s JSON key saved locally as:
- ./.secrets/sa.json (in the root folder)
+- The Service Account’s JSON key saved locally as: ./.secrets/sa.json (in the root folder)
  
  # Google Cloud Setup
    1. Visit Google Cloud Console.
