@@ -1,10 +1,12 @@
-import 'dotenv/config';
+
 import fs from 'fs/promises';
 import path from 'path';
 import Handlebars from 'handlebars';
 import { importAll } from './importer.js';
-import { buildModel } from './normalize.js';
+import { importFromGoogleAPI } from './importer-sheets-api.js';
+import { buildModel } from './normalise.js';
 import { loadRegistry, validateModel } from './validate.js';
+import 'dotenv/config';
 
 async function loadTemplate(rel){
   const full = path.join('src/templates', rel);
@@ -13,7 +15,9 @@ async function loadTemplate(rel){
 }
 
 async function main(){
-  const raw = await importAll('data'); // (replace with Sheets importer in the next commit)
+const useAPI = !!process.env.SHEET_ID && !!process.env.GOOGLE_APPLICATION_CREDENTIALS;
+const raw = useAPI ? await importFromGoogleAPI({ sheetId: process.env.SHEET_ID }) : await importAll('data'); 
+
   const model = buildModel(raw);
 
   const registry = await loadRegistry();
