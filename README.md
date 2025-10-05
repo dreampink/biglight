@@ -41,7 +41,6 @@ SCSS/CSS - simple responsive styling
 
 
 The Service Account’s JSON key saved locally as:
-
  ./.secrets/sa.json (in the root folder)
  
  # Google Cloud Setup
