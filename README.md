@@ -145,5 +145,7 @@ and paste it into your .env file)
 
 Run:
 npm run build
+
 npm run dev
+
 Open http://localhost:5173 to preview.
