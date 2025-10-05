@@ -1,5 +1,0 @@
-module_id,item_order,desktop_image,mobile_image,alt_text,headline,subhead,cta_text,cta_url,legal_copy
-hero-01,1,https://picsum.photos/1440/510,https://picsum.photos/768/510,Autumn edit,Autumn Collection,,Shop Women,/womens/autumn,
-grid-01,1,https://picsum.photos/720/720,https://picsum.photos/360/360,Kids Jumpers,, ,Shop kids,/kids/jumpers,
-grid-01,2,https://picsum.photos/720/720,https://picsum.photos/360/360,Men's Coats,, ,Shop men,/mens/coats,
-strip-01,1,,,,Free Click & Collect,Orders over £25,Learn more,/delivery,T&Cs apply
