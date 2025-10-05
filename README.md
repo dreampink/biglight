@@ -32,20 +32,6 @@ dotenv - environment variable management
 Live Server - local preview
 SCSS/CSS - simple responsive styling
 
-# Project Structure
-bl-landing-gen/
-├── public/                # Generated output (index.html, styles.css)
-├── src/
-│   ├── importer-sheets-api.js  # Fetches and parses Google Sheet data
-│   ├── normalise.js            # Builds page model from raw rows
-│   ├── validate.js             # Validates content & modules
-│   ├── templates/              # Handlebars partials for modules
-│   └── render.js               # Main build script
-├── .env                        # Your local environment variables (not committed)
-├── .gitignore
-├── package.json
-└── README.md
-
 # Getting Started
 
  # Prerequisites
