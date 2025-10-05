@@ -53,13 +53,13 @@ The Service Account’s JSON key saved locally as:
 
   # Environment Setup 
   Create a .env file in the project root:
-  GOOGLE_APPLICATION_CREDENTIALS=./.secrets/sa.json
-  SHEET_ID=[Actual Google Sheet ID]
+  - GOOGLE_APPLICATION_CREDENTIALS=./.secrets/sa.json
+  - SHEET_ID=[Actual Google Sheet ID]
 
   # Install and Run
-  npm install
-  npm run build
-  npm run dev
+  - npm install
+  - npm run build
+  - npm run dev
 
   Then open http://localhost:5173 ( You;ll see a live preview of the generated HTML landing page)
 
@@ -71,7 +71,7 @@ The Service Account’s JSON key saved locally as:
   5) Once approved, the HTML/CSS is uploaded to Salesforce
 
   # Time Spent
-  5.5 hours total
+  5 hours total
   - 2 hours planning and structuring workflow
   - 2.5 hours implementation and testing
   - 30 mins documentating and polishing 
@@ -143,8 +143,6 @@ and paste it into your .env file)
 
 
 Run:
-npm run build
-
-npm run dev
-
-Open http://localhost:5173 to preview.
+- npm run build
+- npm run dev
+- Open http://localhost:5173 to preview.
