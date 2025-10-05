@@ -70,6 +70,10 @@ SCSS/CSS - simple responsive styling
   4) QA team checks the local preview (mobile + desktop)
   5) Once approved, the HTML/CSS is uploaded to Salesforce
 
+  # Project Structure
+  <img width="430" height="592" alt="Screenshot 2025-10-05 at 14 50 05" src="https://github.com/user-attachments/assets/f6cce6e5-6151-476b-8c81-ca9081e4cfcb" />
+
+
   # Time Spent
   5 hours total
   - 2 hours planning and structuring workflow
