@@ -139,15 +139,11 @@ Set your .env:
 GOOGLE_APPLICATION_CREDENTIALS=./.secrets/sa.json
 
 SHEET_ID=<your-sheet-id>
-
 (When you open your sheet in the browser, look at the URL, Copy just that string (between /d/ and /edit)
 and paste it into your .env file)
 
 
 Run:
-
 npm run build
 npm run dev
-
-
 Open http://localhost:5173 to preview.
