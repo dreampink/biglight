@@ -9,11 +9,11 @@ The focus is on maintainability, repeatability, and clarity.
 Account Managers fill in a shared Google Sheet with page content.
 The sheet contains three tabs:
 
-Page - overall page metadata
-Modules - section definitions (e.g. hero, grid, promo strip)
-Items - images, text, CTAs for each block
+- Page - overall page metadata
+- Modules - section definitions (e.g. hero, grid, promo strip)
+- Items - images, text, CTAs for each block
 
-Images can be real URLs (e.g. from the ASDA CDN) or placeholders such as
+- Images can be real URLs (e.g. from the ASDA CDN) or placeholders such as
 https://picsum.photos/600/400.
 
 2. Automated Build
@@ -36,6 +36,7 @@ SCSS/CSS - simple responsive styling
 
  # Prerequisites
 - Node.js 18+
+- Google Sheet Document
 - Google Cloud project with Sheets API enabled
 - A Service Account with access to your Sheet
 
