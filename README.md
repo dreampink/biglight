@@ -92,8 +92,9 @@ The Service Account’s JSON key saved locally as:
   - 30 mins documentating and polishing 
 
   # Use of AI Tools
-  ChatGPT (GPT-5) - used for code review, documentation drafting, and iterative troubleshooting
-  GitHub Copilot - used in VS Code during development for minor code completions and inline suggestions (e.g. boilerplate, repetitive syntax).
+  - ChatGPT (GPT-5) - used for code review, documentation drafting, and iterative troubleshooting
+  
+  - GitHub Copilot - used in VS Code during development for minor code completions and inline suggestions (e.g. boilerplate, repetitive syntax).
   Copilot helped speed up routine typing but was not used to generate major logic or architecture.
   Together, these tools supported efficiency and clarity, but the underlying workflow, structure, and decisions were designed and implemented independently.
 
@@ -143,3 +144,21 @@ The Service Account’s JSON key saved locally as:
 * Please make sure the tabs in the google sheet are exactly 'Page', 'Modules", "Items"
     <img width="678" height="582" alt="Screenshot 2025-10-05 at 13 33 41" src="https://github.com/user-attachments/assets/776ec2ea-75c3-4d1e-84d5-17be64de04d4" />
 
+1) Open a new Google Sheet and create three tabs named Page, Modules, Items.
+2) Copy the demo tables above into the matching tabs (or use your own).
+3) Share the sheet with your service account email (Viewer) from Google Cloud API.
+
+Set your .env:
+GOOGLE_APPLICATION_CREDENTIALS=./.secrets/sa.json
+SHEET_ID=<your-sheet-id>
+(When you open your sheet in the browser, look at the URL, Copy just that string (between /d/ and /edit)
+and paste it into your .env file)
+
+
+Run:
+
+npm run build
+npm run dev
+
+
+Open http://localhost:5173 to preview.
