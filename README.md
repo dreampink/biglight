@@ -25,12 +25,12 @@ The system then renders a complete HTML page and writes it to public/index.html.
 Developers can view the output in a browser (via a local server) to verify layout, content, and responsiveness before uploading the HTML/CSS into Salesforce.
 
 # Tech Stack
-Node.js -scripting and automation
-Handlebars - templating for reusable modules
-Google Sheets API - structured data source
-dotenv - environment variable management
-Live Server - local preview
-SCSS/CSS - simple responsive styling
+- Node.js -scripting and automation
+- Handlebars - templating for reusable modules
+- Google Sheets API - structured data source
+- dotenv - environment variable management
+- Live Server - local preview
+- SCSS/CSS - simple responsive styling
 
 # Getting Started
 
